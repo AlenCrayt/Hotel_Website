@@ -1,0 +1,7 @@
+Make a website of a Hotel with Angular and Vanilla CSS, connect to a database to store form data.
+Add a success! message when a form is succesfully sent in the form of a green bar up top
+1.Design the website in Figma
+2.Make the website
+  -Add reviews which are randomly picked from a object array
+  -Add a form page which is connected via routers for the webpage to be a SPA
+3.Connect it to MySQL

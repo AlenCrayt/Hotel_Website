@@ -1,0 +1,15 @@
+nav {
+    background-color: #2C3333;
+    color: #A5C9CA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#titulo { 
+    padding-left: 50px;
+}
+
+#contacto {
+    padding-right: 50px;
+}
