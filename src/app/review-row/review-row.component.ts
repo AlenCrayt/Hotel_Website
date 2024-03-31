@@ -14,9 +14,9 @@ export class ReviewRowComponent {
   randy_1:Random = new Random()
   first_review_index:number = this.randy_1.int(0, 1)
   randy_2:Random = new Random()
-  second_review_index:number = this.randy_1.int(2, 3)
+  second_review_index:number = this.randy_2.int(2, 3)
   randy_3:Random = new Random()
-  third_review_index:number = this.randy_1.int(4, 5)
+  third_review_index:number = this.randy_3.int(4, 5)
 
   //Declaracion del array de objetos JS que es usado para llenar un articulo de reseña en la pagina
   review_list = [
