@@ -1,0 +1,27 @@
+div {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #393E46;
+    color: #eeeeeec4;
+    border: solid 1px #eeeeeec4;
+    border-radius: 15px;
+    margin: 0px 30px 0px 30px;
+    padding: 0px 10px 0px 10px;
+    img {
+        width: 350px;
+        height: 250px;
+    }
+    h5 {
+        margin-bottom: 0%;
+    }
+    p {
+        margin-top: 0%;
+    }
+}

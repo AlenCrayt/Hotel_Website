@@ -1,0 +1,16 @@
+article {
+    display: flex;
+    justify-content: space-between;
+    background-color: #393E46;
+    color: #eeeeeec4;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    img {
+        width: 750px;
+        height: 375px;
+    }
+    p {
+        padding: 30px 0px 30px 30px;
+    }
+}
