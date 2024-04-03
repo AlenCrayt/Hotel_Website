@@ -20,13 +20,32 @@ button {
     font-size: 18px;
     margin-bottom: 50px;
 }
+  
+  @keyframes scrollImages {
+    0% {
+      transform: translateX(50%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /*The image-container-parent class affects the element as a whole combining all the children into a single element */
+  .image-container-parent {
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+    img {
+        width: 650px;
+        height: 350px;
+    }
+  }
 
-.scroller-images {
+  /*The image-container-children class is responsible for the children tags inside of the parent element and makes sure they have the correct appeareance */
+  .image-container-children {
     display: flex;
     flex-direction: row;
-    gap: 10px;
-    img {
-        width: 450px;
-        height: 300px;
-    }
-}
+    flex-wrap: nowrap;
+    gap: 20px;
+    animation: scrollImages 60s linear infinite;
+  }
