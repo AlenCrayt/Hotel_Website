@@ -23,7 +23,7 @@ button {
   
   @keyframes scrollImages {
     0% {
-      transform: translateX(50%);
+      transform: translateX(80%);
     }
     100% {
       transform: translateX(-100%);
