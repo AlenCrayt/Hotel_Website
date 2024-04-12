@@ -12,7 +12,7 @@ export class VerticalScrollDirective implements OnInit {
   public observing_function(target: Element): void {
     //Setting up specific options for the observer to be instanced, it will trigger the isIntersecting property halfway through due to it's 0.5 threshold
     const options = {
-      rootMarging: "0px",
+      rootMargin: "0px",
       threshold: 0.5,
     }
     //Instanced observer checks the first entry only to check if it's intersecting and proceeds to add a class to it and make it visible if that's the case

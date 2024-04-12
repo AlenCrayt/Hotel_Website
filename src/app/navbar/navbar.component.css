@@ -6,10 +6,15 @@ nav {
     align-items: center;
 }
 
-#titulo { 
-    padding-left: 50px;
+#contacto {
+    display: flex;
+    justify-content: center;
 }
 
-#contacto {
-    padding-right: 50px;
+#datos_contacto {
+    display: flex;
+    justify-content: space-between;
+    h5 {
+        margin-inline: 20px;
+    }
 }
