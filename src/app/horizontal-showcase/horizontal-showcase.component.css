@@ -36,5 +36,11 @@ article {
 }
 
 .in_view {
-    animation: slide_from_the_left 5s;
+    animation: slide_from_the_left 4s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .in_view {
+        animation: none;
+    }
 }

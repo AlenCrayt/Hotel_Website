@@ -49,3 +49,21 @@ button {
     gap: 20px;
     animation: scrollImages 60s linear infinite;
   }
+
+  @media (prefers-reduced-motion: reduce) {
+    .image-container-children {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 20px;
+      animation: none;
+    }
+
+    .image-container-parent {
+      margin-left: 120px;
+      img {
+        width: 450px;
+        height: 250px;
+      }
+    }
+  }
