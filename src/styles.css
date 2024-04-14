@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 
-/*Pallete de colores obtenido de: https://colorhunt.co/palette/222831393e4600adb5eeeeee */
+/*Color pallete obtained from: https://colorhunt.co/palette/222831393e4600adb5eeeeee */
 body {
     font-family: "Inter";
-    background-color: #222831;
+    background: linear-gradient(0deg, #0d0f13, #22252a, #2f3033);
 }

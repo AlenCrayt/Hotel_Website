@@ -4,6 +4,7 @@ form {
     background-color: #393E46;
     color: #eeeeeec4;
     margin-bottom: 50px;
+    padding-inline: 10px;
     label {
         margin: 10px 0px 10px 0px;
     }

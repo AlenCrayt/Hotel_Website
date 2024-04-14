@@ -23,6 +23,7 @@ article {
     img {
         width: 400px;
         height: 250px;
+        border-radius: 10px;
     }
     h5 {
         margin-bottom: 0%;
