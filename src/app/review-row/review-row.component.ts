@@ -12,11 +12,11 @@ import { Random } from 'random';
 export class ReviewRowComponent {
   //Declaracion de tres numeros aleatorios cada uno en un rango especifico de indices del array de objetos
   randy_1:Random = new Random()
-  first_review_index:number = this.randy_1.int(0, 1)
+  first_review_index:number = this.randy_1.int(0, 2)
   randy_2:Random = new Random()
-  second_review_index:number = this.randy_2.int(2, 3)
+  second_review_index:number = this.randy_2.int(3, 5)
   randy_3:Random = new Random()
-  third_review_index:number = this.randy_3.int(4, 5)
+  third_review_index:number = this.randy_3.int(6, 8)
 
   //Declaracion del array de objetos JS que es usado para llenar un articulo de reseña en la pagina
   review_list = [
@@ -49,6 +49,21 @@ export class ReviewRowComponent {
       reviewer_name: "Alberto",
       portrait: "../../assets/guest_5.jpg",
       text_review: "Una joya escondida en el Hotel Dos Cumbres. Nos sorprendió gratamente la belleza y la elegancia de este encantador hotel. Las habitaciones eran acogedoras y bien equipadas, con vistas impresionantes a las montañas. Disfrutamos especialmente de las actividades al aire libre ofrecidas por el hotel, que nos permitieron explorar la espectacular belleza natural de la región. El personal fue amable y atento en todo momento, asegurándose de que nuestra estancia fuera memorable. Sin duda, este hotel es un destino imperdible para aquellos que buscan una experiencia única en medio de la naturaleza."
+    },
+    {
+      reviewer_name: "Ramon",
+      portrait: "../../assets/guest_6.jpg",
+      text_review: "Situado en las pintorescas laderas de la montaña, este hotel ofrece una escapada tranquila y rejuvenecedora. Con vistas impresionantes y un ambiente sereno, es el lugar perfecto para reconectar con la naturaleza y relajarse por completo. Las cómodas habitaciones y el servicio amable hacen que cada estancia sea memorable y gratificante."
+    },
+    {
+      reviewer_name: "Federico",
+      portrait: "../../assets/guest_7.jpg",
+      text_review: "Este encantador hotel de montaña ofrece una experiencia acogedora y auténtica en medio de un entorno espectacular. Con una ubicación privilegiada cerca de senderos para caminatas y actividades al aire libre, es el punto de partida ideal para aventuras alpinas. Además, el personal atento y las instalaciones bien cuidadas garantizan una estancia placentera y relajante."
+    },
+    {
+      reviewer_name: "Leticia",
+      portrait: "../../assets/guest_8.jpg",
+      text_review: "Anidado entre las majestuosas montañas, este hotel combina el encanto rústico con comodidades modernas para una experiencia verdaderamente inolvidable. Desde su cálida bienvenida hasta sus vistas panorámicas, cada detalle está diseñado para brindar una experiencia de montaña inigualable. Con actividades emocionantes y una atmósfera acogedora, es el destino perfecto para escapar del bullicio de la vida cotidiana."
     }
   ]
 }
