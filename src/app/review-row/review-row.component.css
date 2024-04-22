@@ -19,6 +19,14 @@ h3 {
     visibility: hidden;
 }
 
+@media (max-width: 700px) {
+    #resenias {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
 article {
     background-color: #393E46;
     list-style-type: none;

@@ -1,10 +1,16 @@
+header {
+    min-height: 100px;
+}
+
 nav {
+    max-width: 1500px;
     background-color: #393E46;
     color: #eeeeeec4;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-inline: auto;
 }
 
 h1 {
@@ -26,10 +32,16 @@ h1 {
 #datos_contacto {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    margin-right: 40px;
+    flex-wrap: wrap;
+    margin-right: 20px;
     mat-icon {
         margin-inline: 10px;
         margin-top: 20px;
+    }
+}
+
+@media (max-width: 862px) {
+    #datos_contacto {
+        flex-direction: column;
     }
 }

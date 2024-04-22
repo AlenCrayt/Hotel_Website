@@ -10,7 +10,7 @@ import { Random } from 'random';
   styleUrl: './review-row.component.css'
 })
 export class ReviewRowComponent {
-  //Declaracion de tres numeros aleatorios cada uno en un rango especifico de indices del array de objetos
+  //Three random numbers are declared and instanced, the number is in the range of a specific index of the array below and will be used so that reviews are randomly assigned to add more variety to the webpage
   randy_1:Random = new Random()
   first_review_index:number = this.randy_1.int(0, 2)
   randy_2:Random = new Random()
@@ -18,7 +18,7 @@ export class ReviewRowComponent {
   randy_3:Random = new Random()
   third_review_index:number = this.randy_3.int(6, 8)
 
-  //Declaracion del array de objetos JS que es usado para llenar un articulo de reseña en la pagina
+  //Declaring the array of JavaScript objects that the webpage uses to fill out the content in it's reviews
   review_list = [
     {
       reviewer_name: "Juan",

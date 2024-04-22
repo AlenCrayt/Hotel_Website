@@ -1,14 +1,14 @@
-<form>
+<form action="http://localhost/hotel_website_backend/index.php" method="post" target="_self">
     <h2>Hace tu reserva</h2>
-    <label>Nombre:</label>
-    <input type="text" required/>
-    <label>Apellido:</label>
-    <input type="text" required/>
-    <label>Email:</label>
-    <input type="email" required/>
-    <label>Inicio de estadia:</label>
-    <input type="date" required/>
-    <label>Fin de estadia:</label>
-    <input type="date" required/>
-    <button type="submit">Reserva</button>
+    <label for="nombre">Nombre:</label>
+    <input id="nombre" type="text" name="nombre" minlength="3" maxlength="100" required/>
+    <label for="apellido">Apellido:</label>
+    <input id="apellido" type="text" name="apellido" minlength="3" maxlength="120" required/>
+    <label for="user_email">Email:</label>
+    <input id="user_email" name="user_email" type="email" required/>
+    <label for="inicio_estadia">Inicio de estadia:</label>
+    <input id="inicio_estadia" name="inicio_estadia" type="date" required/>
+    <label for="fin_estadia">Fin de estadia:</label>
+    <input id="fin_estadia" name="fin_estadia" type="date" required/>
+    <button type="submit">Hacer Reserva</button>
 </form>
