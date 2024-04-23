@@ -1,4 +1,4 @@
-<form action="http://localhost/hotel_website_backend/index.php" method="post" target="_self">
+<form id="reserves_form">
     <h2>Hace tu reserva</h2>
     <label for="nombre">Nombre:</label>
     <input id="nombre" type="text" name="nombre" minlength="3" maxlength="100" required/>
@@ -10,5 +10,6 @@
     <input id="inicio_estadia" name="inicio_estadia" type="date" required/>
     <label for="fin_estadia">Fin de estadia:</label>
     <input id="fin_estadia" name="fin_estadia" type="date" required/>
+    <h3>Las fechas que ingreso son Invalidas</h3>
     <button type="submit">Hacer Reserva</button>
 </form>
